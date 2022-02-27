@@ -25,13 +25,14 @@ section {
 }
 
 body {
-  font: normal 0.8em arial, sans-serif;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
   background: #c4e9e8 url(../images/back.png) repeat-x;
-  color: #555;
+  color: #4e4e4e;
 }
 
 a {
-  color: #126179;
+  color: #00aeff;
   text-decoration: underline;
 }
 
@@ -40,8 +41,8 @@ a:hover {
 }
 
 p {
-  margin-bottom: 14px;
-  text-align: justify;
+  line-height: 20px;
+  padding-bottom: 20px;
 }
 
 #outer {
@@ -53,7 +54,6 @@ p {
   font-size: 16px;
   background: #fff;
   border: initial;
-  margin-top: 10px;
 }
 
 footer {
@@ -72,41 +72,63 @@ footer {
   height: 170px;
 }
 
-#pricipalcontent {
-  padding-left: 30px;
+#content {
+  padding: 25px 30px;
   width: 100%;
-  background-color: white;
 }
 
 #primarycontent {
-  width: 70%;
+  width: 50%;
   float: left;
-  margin-right: 30px;
 }
 
-#secondarycontent {
+#content1 {
+  width: 25%;
   float: right;
-  width: 26%;
   background-color: #f5feff;
   border-radius: 10px;
   border: solid 1px #c9e5e9;
+  padding: 20px 10px;
+  margin-top: 20px;
+  margin-right: 5px;
+}
+
+#content2 {
+  width: 25%;
+  float: right;
+  background-color: #f5feff;
+  border-radius: 10px;
+  border: solid 1px #c9e5e9;
+  padding: 20px 10px;
+  margin-top: 20px;
+  margin-right: 5px;
+}
+
+#content3 {
+  width: 25%;
+  float: right;
+  background-color: #f5feff;
+  border-radius: 10px;
+  border: solid 1px #c9e5e9;
+  padding: 20px 10px;
+  margin-top: 20px;
+  margin-right: 5px;
+}
+
+#primarycontent h1 {
+  font-size: 30px;
+  color: #e5017d;
+  letter-spacing: -1px;
 }
 
 #secondarycontent h2 {
   font-size: 20px;
-  line-height: 35px;
   color: #65ca11;
   letter-spacing: -1px;
 }
 
-#secondarycontent .content1 {
-  padding: 10px 5px;
-}
-
-#secondarycontent .content2 {
-  padding: 10px 5px;
-}
-
-#secondarycontent .content3 {
-  padding: 10px 5px;
+#secondarycontent p {
+  line-height: 20px;
+  padding-right: 20px;
+  padding-bottom: 0px;
 }
