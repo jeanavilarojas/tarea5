@@ -25,15 +25,14 @@
   font-size: 16px;
   border: none;
   outline: none;
-  color: white;
+  color: #fff;
   padding: 14px 16px;
   background-color: #53c7fd;
 }
 
-nav .links:hover,
+#container .links:hover,
 .subnav:hover .sub-btn {
-  background-color: #e5017d;
-  color: #fff;
+  color: #e5017d;
   font-weight: bolder;
 }
 
@@ -49,11 +48,6 @@ nav .links:hover,
 .sub-content a {
   float: left;
   text-decoration: none;
-}
-
-.sub-content a:hover {
-  background-color: #e5017d;
-  color: #fff;
 }
 
 .subnav:hover .sub-content {
