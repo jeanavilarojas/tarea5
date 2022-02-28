@@ -21,8 +21,18 @@ body {
   color: #4e4e4e;
 }
 
-footer {
-  background: #c4e9e8 url(../images/grass.png) repeat-x bottom;
+#footer {
+  clear: both;
+  text-align: center;
+  color: #fff;
+  padding: 30px;
+  line-height: 30px;
+  background-color: #53c7fd;
+  border-radius: 0px 0px 10px 10px;
+}
+
+#footer a {
+  color: #fff;
 }
 
 a {
@@ -40,14 +50,14 @@ p {
 }
 
 #outer {
-  width: 920px;
-  height: 920px;
+  width: 1020px;
   position: relative;
   overflow: overlay;
   margin: 0 auto;
   font-size: 16px;
   background: #fff;
   border: initial;
+  border-radius: 25px 25px 25px 25px;
 }
 
 #header {
@@ -56,21 +66,21 @@ p {
 }
 
 #header #splash {
-  float: left;
   width: 100%;
   max-width: 100%;
   height: 170px;
 }
 
-#content {
+#principalcontent {
   width: 100%;
-  margin: 30px 20px;
+  padding: 30px 20px;
   background-color: #fff;
 }
 
 #primarycontent {
-  width: 75%;
+  width: 70%;
   float: left;
+  margin-bottom: 30px;
 }
 
 #primarycontent p {
@@ -87,36 +97,32 @@ p {
 }
 
 #content1 {
-  width: 25%;
+  width: 26%;
   float: right;
   background-color: #f5feff;
   border-radius: 10px;
   border: solid 1px #c9e5e9;
   padding: 20px 10px;
-  margin-top: 20px;
-  margin-right: 5px;
 }
 
 #content2 {
-  width: 25%;
+  width: 26%;
   float: right;
   background-color: #f5feff;
   border-radius: 10px;
   border: solid 1px #c9e5e9;
   padding: 20px 10px;
-  margin-top: 20px;
-  margin-right: 5px;
+  margin-top: 15px;
 }
 
 #content3 {
-  width: 25%;
+  width: 26%;
   float: right;
   background-color: #f5feff;
   border-radius: 10px;
   border: solid 1px #c9e5e9;
   padding: 20px 10px;
-  margin-top: 20px;
-  margin-right: 5px;
+  margin-top: 15px;
 }
 
 #primarycontent h1 {
@@ -148,4 +154,120 @@ img.floatleft {
   height: auto;
   padding: 10px;
   border: 1px solid #b0d9e6;
+}
+
+@media only screen and (max-width: 920px) {
+  /* For mobile phones: */
+  #outer {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 920px) {
+  /* For mobile phones: */
+  #menu {
+    text-align: center;
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  /* For mobile phones: */
+  #primarycontent {
+    width: 90%;
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 920px) {
+  /* For mobile phones: */
+  #secondarycontent {
+    width: 50%;
+    margin-top: 10px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  /* For mobile phones: */
+  #tercero {
+    width: 50%;
+    margin-top: 10px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  /* For mobile phones: */
+  #cuarto {
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  /* For mobile phones: */
+  #header #splash {
+    width: 100%;
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  /* For mobile phones: */
+  #secondarycontent {
+    width: 100%;
+    display: left;
+    text-align: center;
+  }
+  #secondarycontent .content {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  /* For mobile phones: */
+  #tercero {
+    width: 100%;
+    display: left;
+    text-align: center;
+  }
+  #tercero .content {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  /* For mobile phones: */
+  #cuarto {
+    width: 100%;
+    display: left;
+    text-align: center;
+  }
+  #cuarto .content {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  /* For mobile phones: */
+  primarycontent {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .footer {
+    width: 20%;
+    height: 20px;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  /* For mobile phones: */
+  tabla {
+    width: 100%;
+    margin: 0;
+  }
 }
