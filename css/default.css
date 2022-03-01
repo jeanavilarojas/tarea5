@@ -144,6 +144,10 @@ p {
   padding-bottom: 0px;
 }
 
+#secondarycontent li {
+  list-style: none;
+}
+
 img.picA {
   position: relative;
 }
@@ -154,6 +158,27 @@ img.floatleft {
   height: auto;
   padding: 10px;
   border: 1px solid #b0d9e6;
+}
+
+tabla {
+  border-collapse: 0;
+}
+
+#table th, td {
+  text-align: center;
+  width: 100%;
+  padding: 10px 10px;
+  background-color: rgb(159, 220, 248);
+}
+
+th {
+  background-color: #e5017d;
+  padding: 10px;
+  color: #fff;
+}
+
+table tr:nth-child(odd) td {
+  background-color: #fff;
 }
 
 @media only screen and (max-width: 920px) {
