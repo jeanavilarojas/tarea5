@@ -83,7 +83,7 @@ p {
   padding: 10px 10px;
   border-radius: 10px;
   margin-bottom: 30px;
-  background-color: #f8ffbd;
+  background-color: #bde5ff;
 }
 
 #primarycontent p {
@@ -103,7 +103,7 @@ p {
 
 #primarycontent h1 {
   font-size: 24px;
-  color: #696800;
+  color: #002a69;
   padding-top: 20px;
   margin-bottom: 20px;
   letter-spacing: -1px;
@@ -119,13 +119,6 @@ p {
   line-height: 20px;
   padding-right: 15px;
   padding-bottom: 0px;
-}
-
-#secondarycontent h3 {
-  font-size: 16px;
-  line-height: 35px;
-  color: #e04212;
-  letter-spacing: -1px;
 }
 
 @media only screen and (max-width: 920px) {
