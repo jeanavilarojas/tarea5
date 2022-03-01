@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 #menu {
   border-radius: 10px 10px 0 0;
   display: flex;
@@ -11,6 +17,7 @@
 }
 
 #container .links {
+  position: relative;
   float: left;
   color: #fff;
   text-align: center;
@@ -40,20 +47,13 @@
 
 .sub-content {
   display: none;
-  position: absolute;
-  left: 0;
   background-color: #53c7fd;
-  width: 100%;
   z-index: 1;
-}
-
-.sub-content a {
-  float: left;
-  text-decoration: none;
 }
 
 .subnav:hover .sub-content {
   display: block;
+  position: absolute;
 }
 
 @media screen and (max-width: 700px) {
