@@ -160,11 +160,8 @@ img.floatleft {
   border: 1px solid #b0d9e6;
 }
 
-tabla {
-  border-collapse: 0;
-}
-
 #table th, td {
+  border: 0px;
   text-align: center;
   width: 100%;
   padding: 10px 10px;
@@ -178,7 +175,7 @@ th {
 }
 
 table tr:nth-child(odd) td {
-  background-color: #fff;
+  background-color: #f3f3f3;
 }
 
 @media only screen and (max-width: 920px) {
